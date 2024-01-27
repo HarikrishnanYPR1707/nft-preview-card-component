@@ -2,7 +2,7 @@ import React from "react";
 
 const NftCardPreview = () => {
   return (
-    <div className="bg-fmLigntBlue max-w-[350px] rounded-2xl p-6">
+    <div className="bg-fmLigntBlue font-specimen max-w-[350px] rounded-2xl p-6">
       {/* image section  */}
       <div className="group relative mb-6 w-full overflow-hidden rounded-lg">
         <img src="/image-equilibrium.jpg" alt="image" />
@@ -11,9 +11,9 @@ const NftCardPreview = () => {
         </div>
       </div>
       {/* header and para section  */}
-      <div className="">
-        <h1 className="">Equilibrium #3429</h1>
-        <p className="">
+      <div className="border">
+        <h1 className="font-semibold text-white">Equilibrium #3429</h1>
+        <p className="font-light text-gray-400">
           Our Equilibrium collection promotes balance and calm.
         </p>
       </div>
