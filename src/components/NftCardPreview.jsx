@@ -12,15 +12,15 @@ const NftCardPreview = () => {
       </div>
       {/* header and para section  */}
       <div className="">
-        <h1 className="mb-3 text-[22px] font-medium text-white">
+        <h1 className="active:text-fmCyan mb-3 text-[22px] font-medium text-white">
           Equilibrium #3429
         </h1>
-        <p className="font-light text-gray-400">
+        <p className="font-light text-[#8298b9] lg:text-[18px]">
           Our Equilibrium collection promotes balance and calm.
         </p>
       </div>
       {/* value and time section  */}
-      <div className="mb-2 mt-3 flex items-center justify-between text-base">
+      <div className="mb-2 mt-3 flex items-center justify-between text-base lg:mb-6 lg:mt-6">
         <p className="flex items-center justify-between">
           <span className="mr-2">
             <img src="./icon-ethereum.svg" alt="" />
@@ -35,14 +35,15 @@ const NftCardPreview = () => {
         </p>
       </div>
       {/*  Divider  */}
-      <div className="mt-2 h-[1px] w-full bg-[#2b3d55]" />
+      <div className="h-[1px] w-full bg-[#2b3d55]" />
       {/* Avatar and creator section  */}
-      <div className="flex items-center justify-start">
+      <div className="mt-4 flex items-center gap-4">
         <div className="w-[35px]">
           <img src="/image-avatar.png" alt="avatar" />
         </div>
-        <p className="">
-          Creation of <span className="">Jules Wyvern</span>
+        <p className="text-[#8BACD9]">
+          Creation of{" "}
+          <span className="active:text-fmCyan text-white">Jules Wyvern</span>
         </p>
       </div>
     </div>
