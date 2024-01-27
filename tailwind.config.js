@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         fmDarkBlue: "#0d1a2d",
-        fmLigntBlue: "15273f",
+        fmLigntBlue: "#15273f",
         fmCyan: "#00fff7",
       },
       fontFamily: {
