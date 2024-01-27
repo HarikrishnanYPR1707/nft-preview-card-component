@@ -11,7 +11,7 @@ const NftCardPreview = () => {
         </div>
       </div>
       {/* header and para section  */}
-      <div className="mb-3">
+      <div className="">
         <h1 className="mb-3 text-[22px] font-medium text-white">
           Equilibrium #3429
         </h1>
@@ -20,15 +20,25 @@ const NftCardPreview = () => {
         </p>
       </div>
       {/* value and time section  */}
-      <div className="">
-        <p className="">0.041 ETH</p>
-        <p className="">3 days left</p>
+      <div className="mb-2 mt-3 flex items-center justify-between text-base">
+        <p className="flex items-center justify-between">
+          <span className="mr-2">
+            <img src="./icon-ethereum.svg" alt="" />
+          </span>
+          <span className="text-fmCyan">0.041 ETH</span>
+        </p>
+        <p className="flex items-center justify-between">
+          <span className="mr-2">
+            <img src="./icon-clock.svg" alt="" />
+          </span>
+          <span className="text-[#8BACD9]">3 days left</span>
+        </p>
       </div>
       {/*  Divider  */}
-      <div className="h-[1px] w-full bg-[#2b3d55]" />
+      <div className="mt-2 h-[1px] w-full bg-[#2b3d55]" />
       {/* Avatar and creator section  */}
-      <div className="">
-        <div className="">
+      <div className="flex items-center justify-start">
+        <div className="w-[35px]">
           <img src="/image-avatar.png" alt="avatar" />
         </div>
         <p className="">
