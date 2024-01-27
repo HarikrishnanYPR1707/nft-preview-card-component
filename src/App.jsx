@@ -3,7 +3,7 @@ import NftCardPreview from "./components/NftCardPreview";
 
 const App = () => {
   return (
-    <section className="flex h-screen items-center justify-center border p-6">
+    <section className="flex h-screen items-center justify-center p-6">
       <NftCardPreview />
     </section>
   );
