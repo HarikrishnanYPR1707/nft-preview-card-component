@@ -11,8 +11,10 @@ const NftCardPreview = () => {
         </div>
       </div>
       {/* header and para section  */}
-      <div className="border">
-        <h1 className="font-semibold text-white">Equilibrium #3429</h1>
+      <div className="">
+        <h1 className="text-[22px] font-medium text-white">
+          Equilibrium #3429
+        </h1>
         <p className="font-light text-gray-400">
           Our Equilibrium collection promotes balance and calm.
         </p>
