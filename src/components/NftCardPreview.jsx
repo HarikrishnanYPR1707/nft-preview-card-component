@@ -11,8 +11,8 @@ const NftCardPreview = () => {
         </div>
       </div>
       {/* header and para section  */}
-      <div className="">
-        <h1 className="text-[22px] font-medium text-white">
+      <div className="mb-3">
+        <h1 className="mb-3 text-[22px] font-medium text-white">
           Equilibrium #3429
         </h1>
         <p className="font-light text-gray-400">
@@ -25,7 +25,7 @@ const NftCardPreview = () => {
         <p className="">3 days left</p>
       </div>
       {/*  Divider  */}
-      <div className="" />
+      <div className="h-[1px] w-full bg-[#2b3d55]" />
       {/* Avatar and creator section  */}
       <div className="">
         <div className="">
