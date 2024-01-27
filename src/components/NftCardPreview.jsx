@@ -38,7 +38,7 @@ const NftCardPreview = () => {
       <div className="h-[1px] w-full bg-[#2b3d55]" />
       {/* Avatar and creator section  */}
       <div className="mt-4 flex items-center gap-4">
-        <div className="w-[35px]">
+        <div className="w-[35px] rounded-full border">
           <img src="/image-avatar.png" alt="avatar" />
         </div>
         <p className="text-[#8BACD9]">
