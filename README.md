@@ -18,7 +18,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ### Links
 
 - Solution URL: [Solution Here](https://github.com/HarikrishnanYPR1707/nft-preview-card-component)
-- Live Site URL: [Live Site Here](https://social-link-profile-flame.vercel.app/)
+- Live Site URL: [Live Site Here](https://nft-preview-card-component-two-xi.vercel.app/)
 
 ## Built with
 
