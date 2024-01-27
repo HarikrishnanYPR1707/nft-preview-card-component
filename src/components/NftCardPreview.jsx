@@ -4,8 +4,11 @@ const NftCardPreview = () => {
   return (
     <div className="bg-fmLigntBlue max-w-[350px] rounded-2xl p-6">
       {/* image section  */}
-      <div className="w-full overflow-hidden rounded-lg">
+      <div className="group relative w-full overflow-hidden rounded-lg">
         <img src="/image-equilibrium.jpg" alt="image" />
+        <div className="bg-fmCyan absolute inset-0 hidden bg-opacity-50 group-hover:grid group-hover:place-content-center">
+          <img src="/icon-view.svg" alt="image" />
+        </div>
       </div>
       {/* header and para section  */}
       <div className="">
