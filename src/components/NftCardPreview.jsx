@@ -2,7 +2,7 @@ import React from "react";
 
 const NftCardPreview = () => {
   return (
-    <div className="bg-fmLigntBlue rounded-2xl p-6">
+    <div className="bg-fmLigntBlue max-w-[350px] rounded-2xl p-6">
       {/* image section  */}
       <div className="w-full overflow-hidden rounded-lg">
         <img src="/image-equilibrium.jpg" alt="image" />
